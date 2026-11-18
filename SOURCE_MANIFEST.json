@@ -1,0 +1,293 @@
+{
+  "source_directory": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell",
+  "target_repository_name": "HERMES_PrimeKG_GlobalCell",
+  "visibility": "private",
+  "copied_files": {
+    "global_cell/__init__.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/__init__.py",
+      "sha256": "303c9454ad144b949baaf56d3bed46df3a37bc34973f1ffeb54fce11ff7050ac",
+      "bytes": 70
+    },
+    "global_cell/attention.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/attention.py",
+      "sha256": "3e1713b9148386a236e17204a0a1e69ca7cb61cc1e3f34c5110bba6e40e9edeb",
+      "bytes": 9037
+    },
+    "global_cell/cli.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/cli.py",
+      "sha256": "db286ac860a01c193f8cbf0fc19a1d4a38ce8979cd8e779dd9200a8c615e72fa",
+      "bytes": 10768
+    },
+    "global_cell/common.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/common.py",
+      "sha256": "7f7dde0490baa1d8009a94e8f6b01966ebf476d4d641e079d85599a1a038e192",
+      "bytes": 1371
+    },
+    "global_cell/hyper_helpers.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/hyper_helpers.py",
+      "sha256": "6f6c8d58e07aaf59de93564c8c3fad281af8cb183612c48eed71cfe39388f4bc",
+      "bytes": 853
+    },
+    "global_cell/network.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/network.py",
+      "sha256": "d7e38d9cca21d506b38fd270ac1b828603e3d135d5486137b58d37d5700ddb6c",
+      "bytes": 7593
+    },
+    "global_cell/structure.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/structure.py",
+      "sha256": "ac140eda6519fdbfb2ff5c53205c367fdd997cddcc3e0d125a5b416b3a94b3db",
+      "bytes": 4595
+    },
+    "global_cell/synergy.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/synergy.py",
+      "sha256": "2876f24b1ca7d683ca12f0ff8f1d97e7a8d203a2930eba602a3ca3c061aac059",
+      "bytes": 2162
+    },
+    "models/zero_gated_checkpoint.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/models/zero_gated_checkpoint.py",
+      "sha256": "b4aa668ed403465fd96f00812e815cade2505677ecc472eaa8bbe0acdd68fd21",
+      "bytes": 1638
+    },
+    "models/zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/models/zero_gated_hgnn.py",
+      "sha256": "91daedac0156818797d40294d984d5f1b525f39eb94cb905a059339a69a83d12",
+      "bytes": 4841
+    },
+    "scripts/audit.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/audit.py",
+      "sha256": "d797df9b06e0c0b7b99562a4dc3a754d55833f0e5387aac16025a3efd623c578",
+      "bytes": 4474
+    },
+    "scripts/audit_synergy.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/audit_synergy.py",
+      "sha256": "f24a5d1288d1795f979dacd5fb3eda04564d846970f4139153c34c4f15889598",
+      "bytes": 2318
+    },
+    "scripts/encode_missing.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/encode_missing.py",
+      "sha256": "4693c658eef38cc9e720e7db9dedb793c7cbafd46bb4df7e0b4327be87fc6d54",
+      "bytes": 3204
+    },
+    "scripts/enqueue_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_cv5.py",
+      "sha256": "ed8f91cbe919df16c1dad18c21e0a6074f7feca1098e4ca33f22270d8182480e",
+      "bytes": 6464
+    },
+    "scripts/enqueue_gpu_checks.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_gpu_checks.py",
+      "sha256": "90c71137125c79e551c5b3fb094ddc0e7689c9f87163f013109dc06031267386",
+      "bytes": 4406
+    },
+    "scripts/enqueue_zero_gated_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_zero_gated_cv5.py",
+      "sha256": "d74967ddc56c926c9cc87f66128fc42bd5fd4587a54a247ccd898d38947a0e58",
+      "bytes": 9026
+    },
+    "scripts/enqueue_zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_zero_gated_hgnn.py",
+      "sha256": "f17999daf5145dc00972665edaee9340facc872505b1b7956ae40d3fe15702ab",
+      "bytes": 6927
+    },
+    "scripts/expire_concurrency_scopes.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/expire_concurrency_scopes.py",
+      "sha256": "b81367e6eef5af64cffd0f073bb65970c513fa6f082a8c2f32805bab7290ce10",
+      "bytes": 3169
+    },
+    "scripts/launch_synergy002_fold0.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/launch_synergy002_fold0.py",
+      "sha256": "f1890a18cdcb95bef92141c75f9ab340a36b034dd4c562b4cc8af06b81864bdc",
+      "bytes": 8063
+    },
+    "scripts/launch_synergy15_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/launch_synergy15_cv5.py",
+      "sha256": "0db0243bd2dbafd7fb4781b384c99c0b4c412fe144bf71dd6c35739bcf971d16",
+      "bytes": 8693
+    },
+    "scripts/prepare.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/prepare.py",
+      "sha256": "ecae58c6818084ce2d96e6003a4a50c54a8ba9a585c92a8febbf39247892c931",
+      "bytes": 9994
+    },
+    "scripts/report_synergy002_fold0.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_synergy002_fold0.py",
+      "sha256": "a7adab95e3a16a7ab181d35db891744aa9afb8275fff90bebc3bc68c261a9293",
+      "bytes": 2646
+    },
+    "scripts/report_synergy15_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_synergy15_cv5.py",
+      "sha256": "9b3ed7f90ef321a744b49a7023e5e9c274d2b10b32b3f9a31d6d0dbba78dae47",
+      "bytes": 2467
+    },
+    "scripts/report_zero_gated_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_zero_gated_cv5.py",
+      "sha256": "09cd8f606e6e725a84c515b9822be9d3b246f90dbe17506d28843e9b3c4126d4",
+      "bytes": 7691
+    },
+    "scripts/report_zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_zero_gated_hgnn.py",
+      "sha256": "2c2039bdb830692036bbc8354a52178850e9c44edfdaf36428d9ced6e837495e",
+      "bytes": 2324
+    },
+    "scripts/start_gpu1_two_more.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/start_gpu1_two_more.py",
+      "sha256": "7b45e5a93b52955462b46c698b637744ee7a0c2eeae2d70a4846f668d705c568",
+      "bytes": 4749
+    },
+    "scripts/train_zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/train_zero_gated_hgnn.py",
+      "sha256": "018b7ef8e548ffed987fb45a284438b72897e6e1be8b8ecca0fcec74dc69b08e",
+      "bytes": 12181
+    },
+    "scripts/train_zero_gated_hgnn_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/train_zero_gated_hgnn_cv5.py",
+      "sha256": "cf2c429c545e42100580f4a9560e5ad4c2426aace2cd6fba5ae725682feb840a",
+      "bytes": 12162
+    },
+    "formal_cv5/__init__.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/formal_cv5/__init__.py",
+      "sha256": "146d4f86a127f32b08ad1920287233ee4552fdc686aeb202a45b5d2dc2a74221",
+      "bytes": 73
+    },
+    "formal_cv5/report.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/formal_cv5/report.py",
+      "sha256": "c27380ff434af15242e0f0508ea7f8553cf13a9da296da772d88d3d269956b7a",
+      "bytes": 4612
+    },
+    "tests/test_cv5_observer.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_cv5_observer.py",
+      "sha256": "856ff30827efafd0bb5ce6d8d3a526d743f37c3b732224ec36ea758fc1791cd2",
+      "bytes": 1760
+    },
+    "tests/test_global_cell.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_global_cell.py",
+      "sha256": "129df85b1a95bd68672c2bcd12b95f5affc3cda24885cb59ee1f408856df4959",
+      "bytes": 3190
+    },
+    "tests/test_gpu_job_limits.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_gpu_job_limits.py",
+      "sha256": "15e761ca2aaf512761b1373a5baba38dbe85a619a9a5b239ae21e126129eb6c0",
+      "bytes": 1890
+    },
+    "tests/test_synergy.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_synergy.py",
+      "sha256": "f94897ea519f9657a57f4c42bf4676276048a21d5ac9882231a817a0e944a937",
+      "bytes": 5746
+    },
+    "tests/test_synergy002_dropout.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_synergy002_dropout.py",
+      "sha256": "6d912349c617857bf06204f38edbf59f62db807005a0b1a37f81a47ef76a5673",
+      "bytes": 3977
+    },
+    "tests/test_zero_gated_checkpoint.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_zero_gated_checkpoint.py",
+      "sha256": "371d67b960474131e9036051663cbb9524eb463cb68495e2a442ec4dcc27df97",
+      "bytes": 2564
+    },
+    "tests/test_zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_zero_gated_hgnn.py",
+      "sha256": "fe2c67a0c3c30858c50f861f2cacfb14829fd9f404daba2412e15d3b6b8da0bc",
+      "bytes": 4107
+    },
+    "docs/HISTORY.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/README.md",
+      "sha256": "6cd9e3f40a7edf6e5af99494f4f1ad6e09e473c85ba62c593a79ec2aab8f0e01",
+      "bytes": 7879
+    },
+    "ZERO_GATED_HGNN.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/ZERO_GATED_HGNN.md",
+      "sha256": "96f690f433708493ab751ceeadff285b4228d3f12761a6b16b557c5ba8c667a0",
+      "bytes": 6203
+    },
+    "vendor/hermes/PROVENANCE.json": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/PROVENANCE.json",
+      "sha256": "1ebea19d33ef95d757e46ca2fa798374ad9b7eb380c8e7d8b41ce19b2389bbea",
+      "bytes": 710
+    },
+    "vendor/hermes/Model/HERMES/main.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/HERMES/main.py",
+      "sha256": "3bf1ff76ab9399b7f5fd07e29fdaef765d08be6bab452fbe120620dcaa22dd77",
+      "bytes": 17662
+    },
+    "vendor/hermes/Model/HERMES/model.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/HERMES/model.py",
+      "sha256": "703a9c2d82980f3acdb0a227585030a64cecc88288cd1419e74b08f40cde740e",
+      "bytes": 11046
+    },
+    "vendor/hermes/Model/drug_util.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/drug_util.py",
+      "sha256": "b0cfe10dae8dde48e21410cf03bf74a77939c2307acf2d9556a7399516d4cadb",
+      "bytes": 2136
+    },
+    "vendor/hermes/Model/process_data.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/process_data.py",
+      "sha256": "8f7e64d9852437dcc19c1095fd03d914f92ba4d7362dfdba5df16615b1f0f41c",
+      "bytes": 3083
+    },
+    "vendor/hermes/Model/similarity.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/similarity.py",
+      "sha256": "3ca62b21564eb6447196ee0c528f9bd456552b183a39f74e70a1b9a8ff79e2a7",
+      "bytes": 6689
+    },
+    "vendor/hermes/Model/utils.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/utils.py",
+      "sha256": "e7081dfc4e9a4caf15c91f9dd9009da9756c6b387ae95a72189845339521a284",
+      "bytes": 1905
+    },
+    "vendor/HYPER_PROVENANCE.json": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_CODER_SinglePath/vendor/HYPER_PROVENANCE.json",
+      "sha256": "fc3106a486956429a512ffcf2aa6bfe65427d781776a436bf7afed37970441ec",
+      "bytes": 1087
+    },
+    "vendor/hyper_author/LICENSE": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_CODER_SinglePath/vendor/hyper_author/LICENSE",
+      "sha256": "55d069f8a275b7cd4b8f0b4725fa904936710d75fe528a287f2147c7180eb95a",
+      "bytes": 1056
+    },
+    "vendor/hermes/requirements.txt": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES/requirements.txt",
+      "sha256": "ffdca110dac05410d204191361282d07e3e2fce2622fd66eb8d285e567dda413",
+      "bytes": 150
+    },
+    "integration/mcdsp/tools/paper_routes/queue.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/queue.py",
+      "sha256": "dfcc9952c8363b50b593cdf3a007a462a609db34bd5fd5be8af43e37a0d05599",
+      "bytes": 31921
+    },
+    "integration/mcdsp/tools/paper_routes/common.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/common.py",
+      "sha256": "719a5c663cbf711b3b5cb8c0c0961042586aa691d1702a1410cd2c94d0055cfa",
+      "bytes": 4628
+    },
+    "integration/mcdsp/tools/run_kg_limited_queue.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/run_kg_limited_queue.py",
+      "sha256": "3ed2979ff1e3f3946d459afe65a9af5d0096066f61ed066c8bb208b16a85b1aa",
+      "bytes": 13414
+    },
+    "integration/mcdsp/tools/paper_routes/train_hermes_global_cell.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_global_cell.py",
+      "sha256": "6386d72c0301d06ab7e16d1a773105a1c737e6d7ea7628ebe6e4ed1a9a8eada5",
+      "bytes": 245
+    },
+    "integration/mcdsp/tools/paper_routes/train_hermes_zero_gated_hgnn.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_zero_gated_hgnn.py",
+      "sha256": "ecd011ee48475f942fccfed7a58d7e1f1ec235cf3962c2dc9ad395889c37ff32",
+      "bytes": 255
+    },
+    "integration/mcdsp/tools/paper_routes/train_hermes_zero_gated_hgnn_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_zero_gated_hgnn_cv5.py",
+      "sha256": "3ecf3d029119227b926e4803f2381e2039c3c6063b5b39d895bf1ea6e977f270",
+      "bytes": 266
+    }
+  },
+  "excluded": [
+    "data",
+    "runs",
+    "artifacts",
+    "tmp",
+    "model weights and caches",
+    "AGENTS.md",
+    "runtime state"
+  ],
+  "live_training_source_modified": false,
+  "models_symlink_dereferenced_for_Python_sources": true
+}

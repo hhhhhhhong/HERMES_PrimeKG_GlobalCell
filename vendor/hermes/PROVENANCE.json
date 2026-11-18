@@ -1,0 +1,12 @@
+{
+  "repository": "https://github.com/Christina327/HERMES",
+  "commit": "eb850d70e8e6187d9e03f698736bceca8089f31e",
+  "files_sha256": {
+    "Model/utils.py": "e7081dfc4e9a4caf15c91f9dd9009da9756c6b387ae95a72189845339521a284",
+    "Model/process_data.py": "8f7e64d9852437dcc19c1095fd03d914f92ba4d7362dfdba5df16615b1f0f41c",
+    "Model/drug_util.py": "b0cfe10dae8dde48e21410cf03bf74a77939c2307acf2d9556a7399516d4cadb",
+    "Model/similarity.py": "3ca62b21564eb6447196ee0c528f9bd456552b183a39f74e70a1b9a8ff79e2a7",
+    "Model/HERMES/model.py": "703a9c2d82980f3acdb0a227585030a64cecc88288cd1419e74b08f40cde740e",
+    "Model/HERMES/main.py": "3bf1ff76ab9399b7f5fd07e29fdaef765d08be6bab452fbe120620dcaa22dd77"
+  }
+}

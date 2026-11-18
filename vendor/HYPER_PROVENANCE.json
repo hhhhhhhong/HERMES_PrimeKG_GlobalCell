@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/HxyScotthuang/HYPER",
+  "commit": "14697d81aadccabdc8f707c228a2dde9f29d07f5",
+  "files_sha256": {
+    "LICENSE": "55d069f8a275b7cd4b8f0b4725fa904936710d75fe528a287f2147c7180eb95a",
+    "README.md": "82b4b18f32a43e7f404686b1d2854e706be143b9af25a592ee98bc50e5f49a1f",
+    "hyper/tasks.py": "f729ca2c3bcb54b9cb7872d2a1619ad21023e905945faaacfa39327b6146364f",
+    "hyper/layers.py": "758f9bdd44a2ffc206fcaf631d4eb3504aae46b2ccf93df0ff9afae7bc1a21cb",
+    "hyper/models.py": "4fc4bb432140ab6659450a176f829c784fab7cdabffbfd7aab9d442c5189cdb2",
+    "hyper/datasets.py": "ed96666d28f268d9c7c50e166aafd7807e6c7bb0059bc4134d5eb30249a86bbb",
+    "hyper/util.py": "d709f44234a746e90a9a40369f8f790ee0e4e2933ea942017109333016ad6b6a"
+  },
+  "paper": "/ifs2/home/liushuhong/.codex/attachments/65884145-67d8-468c-80b2-e967aec5ba17/HYPER-ICLR2026.pdf",
+  "paper_sha256": "8049c0a66a9e895ffac03b629e41e66b69434f53bc360f40b6064a33c468f8d7",
+  "adaptation": "Entity-sharing and ordered positional interaction; not foundation checkpoint or full link prediction recipe"
+}
