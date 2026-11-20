@@ -36,3 +36,11 @@ wandb/
 credentials.json
 *.pem
 *.key
+
+# Additional runtime state and authentication files
+/DUAL_BRANCH_VERSION.json
+/OPTIMIZER_DIAGNOSTIC_RUN.json
+/ONEIL_OPTIMIZER_CV5_RUN.json
+*.sqlite
+*.db
+hosts.yml

@@ -1,7 +1,9 @@
 {
   "source_directory": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell",
   "target_repository_name": "HERMES_PrimeKG_GlobalCell",
-  "visibility": "private",
+  "visibility": "public",
+  "exported_training_variant": "dual_branch_gemini_v2_20261119",
+  "timestamp_utc": "2026-11-20T01:53:52.486474+00:00",
   "copied_files": {
     "global_cell/__init__.py": {
       "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/__init__.py",
@@ -250,8 +252,8 @@
     },
     "integration/mcdsp/tools/paper_routes/queue.py": {
       "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/queue.py",
-      "sha256": "dfcc9952c8363b50b593cdf3a007a462a609db34bd5fd5be8af43e37a0d05599",
-      "bytes": 31921
+      "sha256": "a34c1bb28e5aaeba908b2e1f25698336039c6fadfc5ecc5a9240a3473d09d879",
+      "bytes": 32020
     },
     "integration/mcdsp/tools/paper_routes/common.py": {
       "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/common.py",
@@ -277,17 +279,255 @@
       "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_zero_gated_hgnn_cv5.py",
       "sha256": "3ecf3d029119227b926e4803f2381e2039c3c6063b5b39d895bf1ea6e977f270",
       "bytes": 266
+    },
+    "dual_branch/__init__.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/__init__.py",
+      "sha256": "7941107cc492705c918638b687199d702bbb04483e9a92d1e666f95830d49b90",
+      "bytes": 77
+    },
+    "dual_branch/audit_inputs.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/audit_inputs.py",
+      "sha256": "05bc5094a6274656dd536c82b223ea1609385de60b5e0a1760a30645c900fee2",
+      "bytes": 2456
+    },
+    "dual_branch/cell_annotations.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/cell_annotations.py",
+      "sha256": "a96d60357b9b94b6eaad8583836171f74d44283f51ae0d065da0e7caedffa931",
+      "bytes": 3936
+    },
+    "dual_branch/checks.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/checks.py",
+      "sha256": "0ce678a34fc6f3a75043417d24fa6d9eb679066597aeffa8527ee1ff114dec58",
+      "bytes": 9714
+    },
+    "dual_branch/cli.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/cli.py",
+      "sha256": "ebebee525d2a8c25ec0fe3d4f9ab057e15a551217d089d5bfc5a094b260903e4",
+      "bytes": 12990
+    },
+    "dual_branch/common.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/common.py",
+      "sha256": "59c9a4c0849efad196696b34829b1998a9d44e81961b9a17366c1a59ec8e842f",
+      "bytes": 1071
+    },
+    "dual_branch/data.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/data.py",
+      "sha256": "7e345d0b0305a375f8051851d834136eef7c4e7ad5dede9cf13b11189bdc99aa",
+      "bytes": 4995
+    },
+    "dual_branch/freeze.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/freeze.py",
+      "sha256": "02cc41e054adbda081eab9f5e7a4155ca1e6073f2a6adfe5b4004f101652e2ce",
+      "bytes": 3315
+    },
+    "dual_branch/model.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/model.py",
+      "sha256": "94be2f80edc85e0dfd7253a59a8105a6c014d9b08d8e7583232f3cc2a09485f1",
+      "bytes": 10899
+    },
+    "dual_branch/prepare.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/prepare.py",
+      "sha256": "54297a50db4fde73d5f4ce0388a5b1e7471115c8907a2f4940c26b6ccd987d39",
+      "bytes": 6330
+    },
+    "dual_branch/report.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/report.py",
+      "sha256": "127279fbac077eb42e9d61b886d3c19c71bffaa8e14dabb22d7b3c3c13dbec70",
+      "bytes": 2782
+    },
+    "scripts/enqueue_dual_branch_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_dual_branch_cv5.py",
+      "sha256": "6356134baba80711c8d9a71372a345fdaf902b7217613c51ff0899d6b862df2f",
+      "bytes": 9006
+    },
+    "scripts/enqueue_knowledge_decay.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_knowledge_decay.py",
+      "sha256": "1f6bfc93c1c9ccf05dd1015e9b68dc0cbeeede65103ce9e19f16d69e8d8edcd5",
+      "bytes": 5696
+    },
+    "scripts/enqueue_knowledge_decay_oneil_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_knowledge_decay_oneil_cv5.py",
+      "sha256": "2ec6e95e2e31442d4e5e09b1ba6f6a35f89c5c5972931dcdf953f359b145e9a7",
+      "bytes": 9264
+    },
+    "scripts/knowledge_decay.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/knowledge_decay.py",
+      "sha256": "ed9498fd912ce053c043cbcbb1ddea42e6f0b09c17cbd62d1625fb948ade2ede",
+      "bytes": 9134
+    },
+    "scripts/report_dual_branch_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_dual_branch_cv5.py",
+      "sha256": "af49529b8b2992f5fbcf77419b66803c30aa185b093b34d435484b7ab644b20d",
+      "bytes": 9383
+    },
+    "scripts/report_dual_branch_gemini_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_dual_branch_gemini_cv5.py",
+      "sha256": "ba3057b3970afd4af44ce8f7b3bbdf1702a0968af5c0093357f369434f152829",
+      "bytes": 5751
+    },
+    "scripts/report_dual_branch_per_dataset.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_dual_branch_per_dataset.py",
+      "sha256": "2ec1cf074aabe5273d5752e4cf1dc29d8f2bcb2d32089049c3a322979990d367",
+      "bytes": 4430
+    },
+    "scripts/report_knowledge_decay.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_knowledge_decay.py",
+      "sha256": "1a94e83931646f3514a13f8a90bbbe42659888edb6b3ec7221b4163ab6ea78f1",
+      "bytes": 3764
+    },
+    "scripts/report_knowledge_decay_oneil_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_knowledge_decay_oneil_cv5.py",
+      "sha256": "7118ba5988848827535bb4eec13652fa2dc5e5b24326edc4d1f2b898c61997c0",
+      "bytes": 7678
+    },
+    "scripts/train_knowledge_decay.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/train_knowledge_decay.py",
+      "sha256": "40944d01aac1b57f23027b098145fde352d45d2a629ec2644e9a7431db93a5f2",
+      "bytes": 4193
+    },
+    "scripts/train_knowledge_decay_oneil_cv5.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/train_knowledge_decay_oneil_cv5.py",
+      "sha256": "5f093dcf913abe7d02a66d2330971d3ac3816068ecf7208134feb7bb0b13992a",
+      "bytes": 4541
+    },
+    "tests/test_dual_branch.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_dual_branch.py",
+      "sha256": "e1443fa4e8945a38c14c79593890d33f105911a971768cbd1c0b567e9e5ccdf6",
+      "bytes": 3683
+    },
+    "tests/test_knowledge_decay.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_knowledge_decay.py",
+      "sha256": "ca270ccd53b73dcc5292e76169fce6129bf47ae3fabbc1e4b8b6ece2ef4d5c20",
+      "bytes": 5896
+    },
+    "DUAL_BRANCH_GEMINI_V2.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/DUAL_BRANCH_GEMINI_V2.md",
+      "sha256": "87e89c38e8763bf10e39814416979c834e4ac75405385c562bf54840e9ed8950",
+      "bytes": 5329
+    },
+    "DUAL_BRANCH_V1.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/DUAL_BRANCH_V1.md",
+      "sha256": "c214f5a740689d6caf7f61b41441df79e1417618e2bd7d131ca1b8bafacc8b03",
+      "bytes": 11695
+    },
+    "KNOWLEDGE_DECAY_DIAGNOSTIC.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/KNOWLEDGE_DECAY_DIAGNOSTIC.md",
+      "sha256": "391bc8895cef8c0cfb5bdece93c16f1ae2c543bd405ed29e292db30e312fcbfd",
+      "bytes": 4083
+    },
+    "KNOWLEDGE_DECAY_ONEIL_CV5.md": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/KNOWLEDGE_DECAY_ONEIL_CV5.md",
+      "sha256": "5a8d4f5d3fb1a8840eb30c3c1706d402977aa836632f146bd96444b9878e88fd",
+      "bytes": 3430
+    },
+    "integration/mcdsp/tools/paper_routes/train_hermes_dual_branch.py": {
+      "source": "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_dual_branch.py",
+      "sha256": "6d72b08db1a1731a541c0c32b6b75a3e6c783142f31570aa549394b3f71a41f8",
+      "bytes": 243
+    },
+    "integration/HERMES_UniMol_StructureResidual/drug_init_2d3d/__init__.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/drug_init_2d3d/__init__.py",
+      "sha256": "e210a1809f507afc77d7fda4d802131633a4d58c9d529cf16471997720433fb8",
+      "bytes": 73
+    },
+    "integration/HERMES_UniMol_StructureResidual/drug_init_2d3d/model.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/drug_init_2d3d/model.py",
+      "sha256": "07cc3427161451c47451711666f4449d3dddcc1bc2711e14c635d9666e2c2dd0",
+      "bytes": 3464
+    },
+    "integration/HERMES_UniMol_StructureResidual/structure_residual/__init__.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/__init__.py",
+      "sha256": "b2bee73fab85504f8ba9afcf471ed4388fad44ad57aeecc9032db683c3286da3",
+      "bytes": 88
+    },
+    "integration/HERMES_UniMol_StructureResidual/structure_residual/chemistry.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/chemistry.py",
+      "sha256": "835901d815a83d6d1eccdcbdfbd2dde01fe9f519be9e4132256bbf7f99d835c4",
+      "bytes": 8041
+    },
+    "integration/HERMES_UniMol_StructureResidual/structure_residual/common.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/common.py",
+      "sha256": "82453ca5444f815cfce777493a490ed3febc343cf09cc5338b32ec30d07321a4",
+      "bytes": 1432
+    },
+    "integration/HERMES_UniMol_StructureResidual/structure_residual/model.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/model.py",
+      "sha256": "7d46845710fcabb3ca4d9df52d11d7f1e4b3477886db0c308372e511065aa467",
+      "bytes": 5665
+    },
+    "integration/gemini_server_launch/start_gemini_dual_branch_checks_20261119.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/start_gemini_dual_branch_checks_20261119.py",
+      "sha256": "e2c225d3b0a7990517c38bf5b5defd48523657d8d1e19f4c1f22666362d00e6c",
+      "bytes": 5864
+    },
+    "integration/gemini_server_launch/replace_dual_branch_with_gemini_20261119.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/replace_dual_branch_with_gemini_20261119.py",
+      "sha256": "aefd88d9eb6697c55a63ea662d6ebb40fdee0c095985f620e7b590393f281d93",
+      "bytes": 7359
+    },
+    "integration/gemini_server_launch/recover_memory_queue_20261120.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/dual_branch_gemini_cv5_seed0_20261119/recover_memory_queue_20261120.py",
+      "sha256": "b1c97fd42d076d4d473fc814037229b3224a1d1e06068acc1393168d96ee2981",
+      "bytes": 7467
+    },
+    "integration/gemini_server_launch/verify_memory_recovery_20261120.py": {
+      "source": "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/dual_branch_gemini_cv5_seed0_20261119/verify_memory_recovery_20261120.py",
+      "sha256": "8b4db330a18d15b5fd069a8de5ac5f1da9653fc14b2cb67ae31a754d441dba09",
+      "bytes": 3812
     }
   },
+  "frozen_training_sources": {
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/__init__.py": "dual_branch/__init__.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/audit_inputs.py": "dual_branch/audit_inputs.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/cell_annotations.py": "dual_branch/cell_annotations.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/checks.py": "dual_branch/checks.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/cli.py": "dual_branch/cli.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/common.py": "dual_branch/common.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/data.py": "dual_branch/data.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/freeze.py": "dual_branch/freeze.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/model.py": "dual_branch/model.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/prepare.py": "dual_branch/prepare.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/dual_branch/report.py": "dual_branch/report.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/__init__.py": "global_cell/__init__.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/attention.py": "global_cell/attention.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/cli.py": "global_cell/cli.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/common.py": "global_cell/common.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/hyper_helpers.py": "global_cell/hyper_helpers.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/network.py": "global_cell/network.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/structure.py": "global_cell/structure.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/global_cell/synergy.py": "global_cell/synergy.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/models/zero_gated_hgnn.py": "models/zero_gated_hgnn.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/tests/test_dual_branch.py": "tests/test_dual_branch.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/HERMES/main.py": "vendor/hermes/Model/HERMES/main.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/HERMES/model.py": "vendor/hermes/Model/HERMES/model.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/drug_util.py": "vendor/hermes/Model/drug_util.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/vendor/hermes/Model/utils.py": "vendor/hermes/Model/utils.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/drug_init_2d3d/__init__.py": "integration/HERMES_UniMol_StructureResidual/drug_init_2d3d/__init__.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/drug_init_2d3d/model.py": "integration/HERMES_UniMol_StructureResidual/drug_init_2d3d/model.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/__init__.py": "integration/HERMES_UniMol_StructureResidual/structure_residual/__init__.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/chemistry.py": "integration/HERMES_UniMol_StructureResidual/structure_residual/chemistry.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/common.py": "integration/HERMES_UniMol_StructureResidual/structure_residual/common.py",
+    "/ifs2/home/liushuhong/work2/HERMES_UniMol_StructureResidual/structure_residual/model.py": "integration/HERMES_UniMol_StructureResidual/structure_residual/model.py",
+    "/ifs2/home/liushuhong/work2/mcdsp_moe/MCDSP-main/tools/paper_routes/train_hermes_dual_branch.py": "integration/mcdsp/tools/paper_routes/train_hermes_dual_branch.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/enqueue_dual_branch_cv5.py": "scripts/enqueue_dual_branch_cv5.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_dual_branch_cv5.py": "scripts/report_dual_branch_cv5.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/start_gemini_dual_branch_checks_20261119.py": "integration/gemini_server_launch/start_gemini_dual_branch_checks_20261119.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/scripts/report_dual_branch_gemini_cv5.py": "scripts/report_dual_branch_gemini_cv5.py",
+    "/ifs2/home/liushuhong/work2/HERMES_PrimeKG_GlobalCell/artifacts/replace_dual_branch_with_gemini_20261119.py": "integration/gemini_server_launch/replace_dual_branch_with_gemini_20261119.py"
+  },
+  "frozen_manifest_sha256": "ea57db157e20db94556122ee1438dc7c8e2d4e708b66cdebfbb9cf31ec38e3fc",
+  "all_37_frozen_sources_included": true,
+  "live_training_source_modified": false,
   "excluded": [
     "data",
     "runs",
     "artifacts",
     "tmp",
-    "model weights and caches",
+    "weights and cached vectors",
     "AGENTS.md",
-    "runtime state"
+    "runtime state",
+    "credentials"
   ],
-  "live_training_source_modified": false,
-  "models_symlink_dereferenced_for_Python_sources": true
+  "models_symlink_dereferenced_for_Python_sources": true,
+  "external_encoder_sources_included_as_integration_copy": true
 }
