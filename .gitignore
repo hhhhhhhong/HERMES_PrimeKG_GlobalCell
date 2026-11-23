@@ -44,3 +44,9 @@ credentials.json
 *.sqlite
 *.db
 hosts.yml
+
+# Current server pointers and private runtime state
+/*_RUN.json
+/*_VERSION.json
+/CURRENT_MODEL.json
+/*_STATUS.json
